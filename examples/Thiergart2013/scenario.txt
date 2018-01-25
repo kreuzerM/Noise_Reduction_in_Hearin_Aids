@@ -1,0 +1,6 @@
+It is the same simulation as for the ICASSP 2013 paper (double talk, RT60 380ms, shoebox room, 4 omnis with 3cm spacing).
+
+y1: unprocessed
+y2: proposed with estimated DOAs (but fixed DOAs to make it compatible to the SD beamformer)
+y3: SD beamformer with a single constraint (-30dB noise limit)
+y4: minimizing only the noise (two constraints as for the proposed)
